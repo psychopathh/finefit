@@ -1,0 +1,1234 @@
+<!DOCTYPE html>
+<html lang="gb">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1" id="viewport">
+    <link rel="stylesheet" href="css/gb/app.css">
+    <link rel="stylesheet" href="css/gb/common.css">
+    <title>Fine Fit </title>
+  </head>
+  <body class="lang_gb page_home page_cod">
+    <div class="page_wrapper">
+      <div class="warning_block">
+        <div class="wrapper">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="warning">
+                  <p> <span>Attention: </span>Because of all the media attention we have limited stock. As of  <i class="date"></i> only 52 items are still available. </p>
+                  <div class="close"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="greeting">
+        <div class="wrapper">
+          <div class="container">
+            <div class="top_part">
+              <div class="left_part">
+                <div class="title">Increase the <span>Effectiveness of Training</span></div>
+                <div class="subtitle">at least <span>7 times!</span></div>
+                <div class="product_box">
+                  <div class="text_box">
+                    <div class="text">
+                      <p><span>Fine Fit – Pre-training Complex </span>of a New Generation With a High Content of Guarana Extract:</p>
+                    </div>
+                    <ul class="greeting_list">
+                      <li> 
+                        <p>Raise stamina and strength </p>
+                      </li>
+                      <li> 
+                        <p>Improves brain and physical activity by 300%</p>
+                      </li>
+                      <li> 
+                        <p>Effects rapid fat burning and muscle mass gain</p>
+                      </li>
+                      <li> 
+                        <p>The most popular pre-training complex in the world</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="product"><img src="img/common/product.png" alt="">
+                    <div class="label global_label">
+                      <p class="up">Up to</p>
+                      <p class="proc">60% </p>
+                      <p class="off">off</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="right_part" id="form2">
+                <div id="scroll_to_form"></div>
+                <div class="greeting_image"><img src="img/common/greeting_image.png" alt=""></div>
+                <div class="form_box">
+                  <div class="form_title">Order Now</div>
+                  <div class="subtitle">
+                    <p>and get your Fine Fit  </p>
+                    <p>with a special price: <span>from </span><span class="price"><?=$currency?><?=$price['values']['amo_total_main_price']?></span></p>
+                  </div>
+                  <form class="form" id="ajax_form_cod_2" action="" data-errorname="<?=$text['cod_form']['fields_placeholder'][0]?> <?=$text['order_form']['errors']['valid']?>" data-errorphone="<?=$text['cod_form']['fields_placeholder'][1]?> <?=$text['order_form']['errors']['valid']?>" data-errorphonenum_first="<?=$text['cod_form']['phonenum'][0]?>" data-errorphonenum_last="<?=$text['cod_form']['phonenum'][1]?>">
+                    <input type="hidden" name="user_ip" value="<?=$_SERVER['REMOTE_ADDR']?>">
+                    <input type="hidden" name="session_id" value="<?=$_GET['session'] ?? ''?>">
+                    <input type="hidden" name="aff_id" value="<?=$_GET['aff_id'] ?? ''?>">
+                    <input type="hidden" name="aff_sub" value="<?=$_GET['aff_sub'] ?? ''?>">
+                    <input type="hidden" name="aff_sub2" value="<?=$_GET['aff_sub2'] ?? ''?>">
+                    <input type="hidden" name="aff_sub3" value="<?=$_GET['aff_sub3'] ?? ''?>">
+                    <input type="hidden" name="aff_sub4" value="<?=$_GET['aff_sub4'] ?? ''?>">
+                    <input type="hidden" name="aff_sub5" value="<?=$_GET['aff_sub5'] ?? ''?>">
+                    <div class="field">
+                      <div class="top">
+                        <div class="field_name">Name:</div>
+                        <div class="example">i.e. Marry Johnson</div>
+                      </div>
+                      <input type="text" data-error-name="Name" name="name" placeholder="Your name">
+                    </div>
+                    <div class="field">
+                      <div class="top">
+                        <div class="field_name">Contact phone number:</div>
+                        <div class="example">i.e. +490 1234567</div>
+                      </div>
+                      <input type="tel" data-error-name="Phone" name="phone" placeholder="Your contact phone number">
+                    </div>
+                    <div class="arrow_price">
+                      <div class="old_price">
+                        <div class="desc">retail:</div>
+                        <div class="value"><span> <?=$currency?><?=$price['values']['price2']?></span></div>
+                      </div>
+                      <div class="new_price">
+                        <div class="value">
+                          <div class="new_price_count"><?=$currency?><?=$price['values']['amo_total_main_price']?>
+                            <div class="label_new"><span>New!</span></div>
+                          </div>
+                          <div class="box">
+                            <p><span class="plus">+</span><span class="free">fast </span></p>
+                            <p><span class="regular">Shipping</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="submit_form" type="submit"><span class="big">Order Now</span><span class="small">with Discount</span></button>
+                    <div class="nope">* Filling out the form does not oblige you to make a purchase.</div>
+                  </form>
+                </div>
+                <div class="promotion">The PROMOTION is active <span>from </span><span class="date_from" data-date data-day="-30"> </span><span> to  </span><span class="date_to" data-date data-day="1"> </span></div>
+                <div class="purchased">
+                  <h4>Purchased this week:</h4>
+                  <p><span>1457 </span>pcs</p>
+                </div>
+              </div>
+            </div>
+            <div class="bottom_part">
+              <ul class="list_icons">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+            <div class="logos_block">
+              <div class="tv">As seen on:</div>
+              <div class="logos">
+                <div class="icon_tv_logo-1"></div>
+                <div class="icon_tv_logo-2"></div>
+                <div class="icon_tv_logo-3"></div>
+                <div class="icon_tv_logo-4"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="lazy">
+        <div class="wrapper">
+          <div class="container">
+            <div class="lazy_image"><img src="img/common/lazy_image.png" alt=""></div>
+            <div class="right_part">
+              <div class="product_name">Fine-fit</div>
+              <div class="title">For Those Who Do Not Want <span>to Be Lazy and Skip Workouts</span></div>
+              <div class="text">
+                <p>Each day we’re affected by many factors: work, stress, increasing fatigue, bad weather etc. Someday it’s hard to fight against your desire to stay at home and skip training.</p>
+                <p>We present to you a new pre-training complex Fine Fit – a special drink  <strong>that activates the forces inside you, eliminates laziness, lift ups mood and adds maximum energy. </strong></p>
+              </div>
+              <div class="nope">
+                <p>No matter how tired you may be, you will not only have the strength and desire for training, <span>but its effectiveness will increase by at least 7 times!</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="complitely">
+        <div class="wrapper">
+          <div class="container">
+            <div class="left_part">
+              <div class="title">Fine Fit is a <span>Completely Natural Complex, </span></div>
+              <div class="subtitle">
+                <p>Consisting Exclusively of Extracts of Plants And Vitamins</p>
+              </div>
+              <div class="text">
+                <p>Fine Fit has nothing to do with chemical energy drinks, which damage your health. It’s a <span>completely natural drink </span>with a strong stimulating effect. It makes workouts as intense and pleasant as possible.</p>
+                <p>Fine Fit should be taken straight before training. Thanks to the special substances that make up the complex, it expands the blood vessels and enhances the blood flow, which results in <span>active saturation of muscle tissue with nutrients and oxygen.</span></p>
+              </div>
+              <div class="nope">
+                <p>All Fine Fit substances are in an easily digestible form, so that effect is nearly instantaneous. You feel a huge surge of energy and there’s no trace left of laziness and apathy.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="effects">
+        <div class="wrapper">
+          <div class="container">
+            <div class="effects_image"><img src="img/common/effects_image.png" alt=""></div>
+            <div class="right_part">
+              <div class="title"><span>All Effects and Benefits </span>of Fine Fit:</div>
+              <div class="product_box">
+                <div class="product"><img src="img/common/product.png" alt=""></div>
+                <ul class="effects_list">
+                  <li>
+                    <p><span>Boosts the endurance, strength and productivity of the training. </span>You will do more and be less tired.</p>
+                  </li>
+                  <li>
+                    <p><span>Accelerates the recovery process after exhausting loads.  </span>Even after an active workout, you won’t feel drained or tired.</p>
+                  </li>
+                  <li>
+                    <p><span>Increases the speed of muscle mass gain.  </span>Creates perfect conditions for muscle mass growth.</p>
+                  </li>
+                  <li>
+                    <p><span>Accelerates metabolism, increases fat burning, suppresses appetite. </span>You can quickly lose those extra kilos.</p>
+                  </li>
+                  <li>
+                    <p><span>Lifts the spirit, eliminates apathy.  </span>You'll want to go to your workouts.</p>
+                  </li>
+                  <li>
+                    <p><span>Raises mental capacity and improves the focus of consciousness. </span>If you are engaged in mental work, Fine Fit will increase its effectiveness.</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="cod_buttons">
+              <div class="arrow_price">
+                <div class="old_price">
+                  <div class="desc">retail:</div>
+                  <div class="value"><span><?=$currency?><?=$price['values']['price2']?></span></div>
+                </div>
+              </div>
+              <div class="button_box">
+                <div class="new_price">
+                  <div class="value">
+                    <div class="new_price_count"><?=$currency?><?=$price['values']['amo_total_main_price']?>
+                      <div class="label_new"><span>New!</span></div>
+                    </div>
+                    <div class="box">
+                      <p><span class="plus">+</span><span class="free">fast </span></p>
+                      <p><span class="regular">Shipping</span></p>
+                    </div>
+                  </div>
+                </div><a class="thx_button scroll_to_button" href="#scroll_to_form"><span>Order Now</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="perfect">
+        <div class="wrapper">
+          <div class="container">
+            <div class="perfect_image"><img src="img/common/perfect_image.png" alt=""></div>
+            <div class="left_part">
+              <div class="title"><span>Fine Fit is Perfect </span>for You, If You’re:</div>
+              <div class="list_box">
+                <ul>
+                  <li>
+                    <p><span>Professional  </span>athlete</p>
+                  </li>
+                  <li>
+                    <p><span>Doing  </span>power training</p>
+                  </li>
+                  <li>
+                    <p><span>Engaged </span>in fitness</p>
+                  </li>
+                  <li>
+                    <p><span>Doing </span>intellectual work</p>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <p><span>Working hard </span>and without a break</p>
+                  </li>
+                  <li>
+                    <p><span>Into </span>an active lifestyle</p>
+                  </li>
+                  <li>
+                    <p><span>Nighttime </span>disco lover</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="cod_buttons">
+                <div class="arrow_price">
+                  <div class="old_price">
+                    <div class="desc">retail:</div>
+                    <div class="value"><span><?=$currency?><?=$price['values']['price2']?></span></div>
+                  </div>
+                </div>
+                <div class="button_box">
+                  <div class="new_price">
+                    <div class="value">
+                      <div class="new_price_count"><?=$currency?><?=$price['values']['amo_total_main_price']?>
+                        <div class="label_new"><span>New!</span></div>
+                      </div>
+                      <div class="box">
+                        <p><span class="plus">+</span><span class="free">fast </span></p>
+                        <p><span class="regular">Shipping</span></p>
+                      </div>
+                    </div>
+                  </div><a class="thx_button scroll_to_button" href="#scroll_to_form"><span>Order Now</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="guarantees">
+        <div class="wrapper">
+          <div class="container">
+            <div class="guarantees_image"><img src="img/common/guarantees_image.png" alt=""></div>
+            <div class="left_part">
+              <div class="title">The Right Use of Fine Fit Guarantees <span>the Effectiveness of Any Workout</span></div>
+              <div class="product_box">
+                <div class="list_box">
+                  <ul class="guarantees_list">
+                    <li>
+                      <p><span>Dilute 1 teaspoon  </span>in a glass of water, juice or low-fat milk</p>
+                    </li>
+                    <li>
+                      <p><span>Drink cocktail </span>in 40 min before training</p>
+                    </li>
+                    <li>
+                      <p><span>Do workout </span>with increased efficiency and desire, feel a powerful burst of energy</p>
+                    </li>
+                    <li>
+                      <p><span>Do not exceed a dose </span>of more than 2 teaspoons per day; do not use Fine Fit at least 3 hours before bedtime.</p>
+                    </li>
+                  </ul>
+                  <div class="nope">
+                    <p>Normally Fine Fit effect comes <span>in 10 min after taking.</span></p>
+                  </div>
+                </div>
+                <div class="product"><img src="img/common/product.png" alt=""></div>
+              </div>
+              <div class="cod_buttons">
+                <div class="arrow_price">
+                  <div class="old_price">
+                    <div class="desc">retail:</div>
+                    <div class="value"><span><?=$currency?><?=$price['values']['price2']?></span></div>
+                  </div>
+                </div>
+                <div class="button_box">
+                  <div class="new_price">
+                    <div class="value">
+                      <div class="new_price_count"><?=$currency?><?=$price['values']['amo_total_main_price']?>
+                        <div class="label_new"><span>New!</span></div>
+                      </div>
+                      <div class="box">
+                        <p><span class="plus">+</span><span class="free">fast </span></p>
+                        <p><span class="regular">Shipping</span></p>
+                      </div>
+                    </div>
+                  </div><a class="thx_button scroll_to_button" href="#scroll_to_form"><span>Order Now</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="composition">
+        <div class="wrapper">
+          <div class="container">
+            <div class="title"><span>Strictly Useful  </span>Composition </div>
+            <div class="composition_main">
+              <ul class="composition_list">
+                <li>
+                  <div class="item_head">
+                    <div class="icon icon-1"></div>
+                    <div class="caption">Guarana extract </div>
+                  </div>
+                  <div class="text">
+                    <p>A powerful stimulant. Contains 10 times more caffeine than coffee. It increases mood, gives energy. Improves physical strength. Provides a powerful stimulating effect. Increases the efficiency of physical and mental activity, speeds up reactions, relieves depressive and anxious conditions.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="item_head">
+                    <div class="icon icon-2"></div>
+                    <div class="caption">Pyridoxine (vitamin B6)</div>
+                  </div>
+                  <div class="text">
+                    <p>Accelerates metabolism, fights excess fat, normalizes the nervous system, relieves fatigue, raises mood, increases libido. Disperses lactic acid, removes fatigue-fever after training and eliminates muscle spasms.</p>
+                  </div>
+                </li>
+              </ul>
+              <div class="product"><img src="img/common/product.png" alt=""></div>
+              <ul class="composition_list">
+                <li>
+                  <div class="item_head">
+                    <div class="icon icon-3"></div>
+                    <div class="caption">Vitamin C</div>
+                  </div>
+                  <div class="text">
+                    <p>Antioxidant and reducing agent, is involved in metabolic processes. Improves the digestibility of substances, provides a synergistic effect. Increases endurance and adaptation to training loads.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="item_head">
+                    <div class="icon icon-4"></div>
+                    <div class="caption">Magnesium</div>
+                  </div>
+                  <div class="text">
+                    <p>It promotes normalization of metabolic processes in muscle cells, maintains normal osmotic pressure in them, prevents spasms (including cardiac muscle). Activates &quot;pumping&quot;, causes a powerful pumping effect of muscles. Optimizes recovery processes, enhances immunity and prevents fatigue.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pleasure">
+        <div class="wrapper">
+          <div class="container">
+            <div class="pleasure_image"><img src="img/common/pleasure_image.png" alt=""></div>
+            <div class="left_part">
+              <div class="title"><span>Fine Fit Brings Pleasure and Benefit </span>During Trainings</div>
+              <div class="text">
+                <p>Scientists and physicians agree that the periodic <strong>stimulation of the body benefits.  </strong>As in these moments the blood begins to circulate faster, as a result, the vessels are cleaned and &quot;trained&quot;, dangerous deposits and cholesterol plaques are eliminated. <strong>Internal organs receive more nutrients  </strong>and oxygen, as a consequence, they regenerate and recover faster. The body becomes more resistant to physical and emotional overload.</p>
+              </div>
+              <div class="nope">
+                <p>Unlike many &quot;synthetic analogues&quot;  <strong>Fine Fit does not have any side effects and is not addictive.  </strong>This complex passed the necessary certification and was recognized not only harmless, but also useful for health.  <strong>Those who use Fine Fit are much healthier and feel better.</strong></p>
+              </div>
+              <div class="cod_buttons">
+                <div class="arrow_price">
+                  <div class="old_price">
+                    <div class="desc">retail:</div>
+                    <div class="value"><span><?=$currency?><?=$price['values']['price2']?></span></div>
+                  </div>
+                </div>
+                <div class="button_box">
+                  <div class="new_price">
+                    <div class="value">
+                      <div class="new_price_count"><?=$currency?><?=$price['values']['amo_total_main_price']?>
+                        <div class="label_new"><span>New!</span></div>
+                      </div>
+                      <div class="box">
+                        <p><span class="plus">+</span><span class="free">fast </span></p>
+                        <p><span class="regular">Shipping</span></p>
+                      </div>
+                    </div>
+                  </div><a class="thx_button scroll_to_button" href="#scroll_to_form"><span>Order Now</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="table">
+        <div class="wrapper">
+          <div class="container">
+            <div class="title"><span>Compare Fine Fit to Other Ways </span>of Training Efficiency Improvement</div>
+            <div class="main_table">
+              <div class="table_head">
+                <div class="column-1"></div>
+                <div class="column-2">Keeping the necessary rules, regimen, proper nutrition</div>
+                <div class="column-3">Synthetic analogues</div>
+                <div class="column-4">Caffeine-based energetics</div>
+                <div class="column-5">Various dietary supplements and uncertified products</div>
+                <div class="column-6 maxize">Fine Fit</div>
+              </div>
+              <div class="table_line">
+                <div class="column-1">
+                  <div class="caption"><span>Increase </span>of physical and mental activity immediately after taking</div>
+                </div>
+                <div class="column-2">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-3">
+                  <div class="icon_plus"></div>
+                </div>
+                <div class="column-4">
+                  <div class="icon_plus"></div>
+                </div>
+                <div class="column-5">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-6 maxize">
+                  <div class="icon_big_plus"></div>
+                </div>
+              </div>
+              <div class="table_line">
+                <div class="column-1">
+                  <div class="caption"><span>Increase </span>of training effectiveness</div>
+                </div>
+                <div class="column-2">
+                  <div class="icon_plus"></div>
+                </div>
+                <div class="column-3">
+                  <div class="icon_plus"></div>
+                </div>
+                <div class="column-4">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-5">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-6 maxize">
+                  <div class="icon_big_plus"></div>
+                </div>
+              </div>
+              <div class="table_line">
+                <div class="column-1">
+                  <div class="caption"><span>Naturalness </span>and safety for health</div>
+                </div>
+                <div class="column-2">
+                  <div class="icon_plus"></div>
+                </div>
+                <div class="column-3">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-4">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-5">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-6 maxize">
+                  <div class="icon_big_plus"></div>
+                </div>
+              </div>
+              <div class="table_line">
+                <div class="column-1">
+                  <div class="caption"><span>Recommendations </span>of british coaches</div>
+                </div>
+                <div class="column-2">
+                  <div class="icon_plus"></div>
+                </div>
+                <div class="column-3">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-4">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-5">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-6 maxize">
+                  <div class="icon_big_plus"></div>
+                </div>
+              </div>
+              <div class="table_line">
+                <div class="column-1">
+                  <div class="caption"><span>Maximum result </span>by minimal effort</div>
+                </div>
+                <div class="column-2">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-3">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-4">
+                  <div class="icon_plus"></div>
+                </div>
+                <div class="column-5">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-6 maxize">
+                  <div class="icon_big_plus"></div>
+                </div>
+              </div>
+              <div class="table_line">
+                <div class="column-1">
+                  <div class="caption"><span>Affordable </span>price</div>
+                </div>
+                <div class="column-2">
+                  <div class="icon_plus"></div>
+                </div>
+                <div class="column-3">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-4">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-5">
+                  <div class="icon_minus"></div>
+                </div>
+                <div class="column-6 maxize">
+                  <div class="icon_big_plus"></div>
+                </div>
+              </div>
+            </div>
+            <ul class="slider">
+              <li class="slide">
+                <div class="slide_head">
+                  <p><span>Increase </span>of physical and mental activity immediately after taking</p>
+                </div>
+                <div class="slide_body">
+                  <div class="option">
+                    <div class="option_name">Keeping the necessary rules, regimen, proper nutrition</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Synthetic analogues</div>
+                    <div class="value icon_plus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Caffeine-based energetics</div>
+                    <div class="value icon_plus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Various dietary supplements and uncertified products</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="maxize">
+                    <div class="option_name">Fine Fit</div>
+                    <div class="value icon_plus_big"></div>
+                  </div>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="slide_head">
+                  <p><span>Increase </span>of training effectiveness</p>
+                </div>
+                <div class="slide_body">
+                  <div class="option">
+                    <div class="option_name">Keeping the necessary rules, regimen, proper nutrition</div>
+                    <div class="value icon_plus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Synthetic analogues</div>
+                    <div class="value icon_plus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Caffeine-based energetics</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Various dietary supplements and uncertified products</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="maxize">
+                    <div class="option_name">Fine Fit</div>
+                    <div class="value icon_plus_big"></div>
+                  </div>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="slide_head">
+                  <p><span>Naturalness </span>and safety for health</p>
+                </div>
+                <div class="slide_body">
+                  <div class="option">
+                    <div class="option_name">Keeping the necessary rules, regimen, proper nutrition</div>
+                    <div class="value icon_plus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Synthetic analogues</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Caffeine-based energetics</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Various dietary supplements and uncertified products</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="maxize">
+                    <div class="option_name">Fine Fit</div>
+                    <div class="value icon_plus_big"></div>
+                  </div>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="slide_head">
+                  <p><span>Recommendations </span>of british coaches</p>
+                </div>
+                <div class="slide_body">
+                  <div class="option">
+                    <div class="option_name">Keeping the necessary rules, regimen, proper nutrition</div>
+                    <div class="value icon_plus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Synthetic analogues</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Caffeine-based energetics</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Various dietary supplements and uncertified products</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="maxize">
+                    <div class="option_name">Fine Fit</div>
+                    <div class="value icon_plus_big"></div>
+                  </div>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="slide_head">
+                  <p><span>Maximum result </span>by minimal effort</p>
+                </div>
+                <div class="slide_body">
+                  <div class="option">
+                    <div class="option_name">Keeping the necessary rules, regimen, proper nutrition</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Synthetic analogues</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Caffeine-based energetics</div>
+                    <div class="value icon_plus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Various dietary supplements and uncertified products</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="maxize">
+                    <div class="option_name">Fine Fit</div>
+                    <div class="value icon_plus_big"></div>
+                  </div>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="slide_head">
+                  <p><span>Affordable </span>price</p>
+                </div>
+                <div class="slide_body">
+                  <div class="option">
+                    <div class="option_name">Keeping the necessary rules, regimen, proper nutrition</div>
+                    <div class="value icon_plus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Synthetic analogues</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Caffeine-based energetics</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="option">
+                    <div class="option_name">Various dietary supplements and uncertified products</div>
+                    <div class="value icon_minus"></div>
+                  </div>
+                  <div class="maxize">
+                    <div class="option_name">Fine Fit</div>
+                    <div class="value icon_plus_big"></div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="experts">
+        <div class="wrapper">
+          <div class="container">
+            <div class="experts_image"><img src="img/common/experts_image.png" alt=""></div>
+            <div class="left_part">
+              <div class="title"><span>Experts </span>on Fine Fit:</div>
+              <div class="subtitle"><span>I recommend this complex to all my students,  </span>it allows them to achieve more</div>
+              <div class="nope">
+                <p>I recommend Fine Fit to anyone who wants to achieve significant results in training. Of course, it won’t make you strong and slim just like that, but it will give you energy, desire, strength and increase your endurance, so that you can do more for training and exhaust less. Recently, I recommend Fine Fit to many of my students, and those who take Fine Fit achieve more.</p>
+              </div>
+              <div class="name"><span>Koren M., </span>professional fitness coach</div>
+              <div class="cod_buttons">
+                <div class="arrow_price">
+                  <div class="old_price">
+                    <div class="desc">retail:</div>
+                    <div class="value"><span><?=$currency?><?=$price['values']['price2']?></span></div>
+                  </div>
+                </div>
+                <div class="button_box">
+                  <div class="new_price">
+                    <div class="value">
+                      <div class="new_price_count"><?=$currency?><?=$price['values']['amo_total_main_price']?>
+                        <div class="label_new"><span>New!</span></div>
+                      </div>
+                      <div class="box">
+                        <p><span class="plus">+</span><span class="free">fast </span></p>
+                        <p><span class="regular">Shipping</span></p>
+                      </div>
+                    </div>
+                  </div><a class="thx_button scroll_to_button" href="#scroll_to_form"><span>Order Now</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="reviews">
+        <div class="wrapper">
+          <div class="container">
+            <div class="title"><span>99% of Сustomers Would Recommend </span>Fine Fit to Their Friends</div>
+            <div class="reviews_main">
+              <ul class="reviews_list">
+                <li class="review">
+                  <div class="review_head">
+                    <div class="avatar avatar-1"></div>
+                    <div class="name_box">
+                      <div class="name"><span>Martha, </span>31 y.o. </div>
+                      <div class="mail">mir.tar***@gmail.com</div>
+                    </div>
+                    <div class="icon_stars"></div>
+                  </div>
+                  <div class="review_body">
+                    <div class="caption">It got much easier to do more at workouts</div>
+                    <div class="text">
+                      <p>I knew about Fine Fit from one friend of mine, boasting that at a time when he was taking it, walked swayed like Arnie. I didn’t have such goals, but I have problems with stamina, I get tired and exhausted quickly, and therefore I do not do much in training. So I decided to try it. This complex really removes laziness, increases stamina, and adds strength. It got much easier to do more at trainings. As a result, I lost almost 15 kg in a month! If you want results, try Fine Fit. I sure you, you’ll be impressed.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="review">
+                  <div class="review_head">
+                    <div class="avatar avatar-2"></div>
+                    <div class="name_box">
+                      <div class="name"><span>Аndrew,  </span>34 y.o. </div>
+                      <div class="mail">up-stone***@hotmail.com </div>
+                    </div>
+                    <div class="icon_stars"></div>
+                  </div>
+                  <div class="review_body">
+                    <div class="caption">I have been taking Fine Fit for more than a year, I did not notice any negative consequences on health</div>
+                    <div class="text">
+                      <p>I take Fine Fit, when I need to do a lot at work, but there is no longer any strength. It always helps. As a result, working capacity rises many times and, consequently, you manage to do more at the same time, which has a positive effect on your salary and career. I have been taking Fine Fit for more than a year, I did not notice any negative consequences on health. I feel great. Even more active and healthy than many of my colleagues. Fine Fit is an excellent complex. Ideal for those who are lazy and who seek to live an active lifestyle.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <ul class="reviews_list">
+                <li class="review">
+                  <div class="review_head">
+                    <div class="avatar avatar-3"></div>
+                    <div class="name_box">
+                      <div class="name"><span>Paul,  </span>27 y.o. </div>
+                      <div class="mail">paul-core***@hotmail.com</div>
+                    </div>
+                    <div class="icon_stars"></div>
+                  </div>
+                  <div class="review_body">
+                    <div class="caption">This is the healthiest solution I've ever tried.</div>
+                    <div class="text">
+                      <p>A great pre-training tool! Neither increased heart rate, sweaty palms, nor trembling limbs, nor anything else that other pre-training complexes bring. Opposite, a lot of positive effects. Mood improvement, less rest between approaches, I began trying to do the exercises until the muscles completely relinquished, began to spend twice more time in a gym, became less tired, even after intensive training, I return home vigorously. Previously, this could be hardly imagine. This is the healthiest solution I've ever tried. Now it's the only one I use, and the results are already encouraging. I recommend it to all!</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="review">
+                  <div class="review_head">
+                    <div class="avatar avatar-4"></div>
+                    <div class="name_box">
+                      <div class="name"><span>Veronica, </span>29 y.o. </div>
+                      <div class="mail">ver-throm***@gmail.com</div>
+                    </div>
+                    <div class="icon_stars"></div>
+                  </div>
+                  <div class="review_body">
+                    <div class="caption">I love Fine Fit!</div>
+                    <div class="text">
+                      <p>Recently had an excellent workout after takinng Fine Fit. No trivia like bumping the biceps! Only hardcore - deadlift 40 kg and a new exercise for me from the category of weightlifters - jerk-push rod. After coming home I did't feel any fatigue. I started to cook veal a la francaise. Usually never felt myself so concentrated! There was a feeling that I was a professional chef. Work fast, like clockwork and with great inspiration. Therefore, I can conclude that Fine Fit can be taken not only before training, but before any work that requires concentration and clarity of thinking. I love Fine Fit!</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="because">
+        <div class="wrapper">
+          <div class="container">
+            <div class="because_image"><img src="img/common/because_image.png" alt=""></div>
+            <div class="right_part">
+              <div class="title"><span>Fine Fit is On Top </span>Because:</div>
+              <div class="product_box">
+                <div class="product"><img src="img/common/product.png" alt=""></div>
+                <ul class="because_list">
+                  <li>
+                    <p><span>Completely natural </span>and safe</p>
+                  </li>
+                  <li>
+                    <p><span>Carefully balanced, </span>repeatedly improved consist</p>
+                  </li>
+                  <li>
+                    <p><span>Choice  </span>of professional athletes</p>
+                  </li>
+                  <li>
+                    <p><span>Increase </span>the effectiveness of trainings</p>
+                  </li>
+                  <li>
+                    <p><span>100% bioavailability </span>and complete digestion</p>
+                  </li>
+                  <li>
+                    <p><span>Good </span>for novice</p>
+                  </li>
+                  <li>
+                    <p><span>Passed </span>all basic clinical tests</p>
+                  </li>
+                  <li>
+                    <p><span>Affordable </span>price</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="cod_buttons">
+                <div class="arrow_price">
+                  <div class="old_price">
+                    <div class="desc">retail:</div>
+                    <div class="value"><span><?=$currency?><?=$price['values']['price2']?></span></div>
+                  </div>
+                </div>
+                <div class="button_box">
+                  <div class="new_price">
+                    <div class="value">
+                      <div class="new_price_count"><?=$currency?><?=$price['values']['amo_total_main_price']?>
+                        <div class="label_new"><span>New!</span></div>
+                      </div>
+                      <div class="box">
+                        <p><span class="plus">+</span><span class="free">fast </span></p>
+                        <p><span class="regular">Shipping</span></p>
+                      </div>
+                    </div>
+                  </div><a class="thx_button scroll_to_button" href="#scroll_to_form"><span>Order Now</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="everybody">
+        <div class="wrapper">
+          <div class="container">
+            <div class="everybody_image"><img src="img/common/everybody_image.png" alt=""></div>
+            <div class="right_part">
+              <div class="product_box">
+                <div class="text_box">
+                  <div class="title">Everybody  <span>Needs Fine Fit </span></div>
+                  <div class="subtitle">You may take it periodically or whenever it needed.</div>
+                </div>
+                <div class="product"><img src="img/common/product.png" alt=""></div>
+              </div>
+              <div class="cod_buttons">
+                <div class="arrow_price">
+                  <div class="old_price">
+                    <div class="desc">retail:</div>
+                    <div class="value"><span><?=$currency?><?=$price['values']['price2']?></span></div>
+                  </div>
+                </div>
+                <div class="button_box">
+                  <div class="new_price">
+                    <div class="value">
+                      <div class="new_price_count"><?=$currency?><?=$price['values']['amo_total_main_price']?>
+                        <div class="label_new"><span>New!</span></div>
+                      </div>
+                      <div class="box">
+                        <p><span class="plus">+</span><span class="free">fast </span></p>
+                        <p><span class="regular">Shipping</span></p>
+                      </div>
+                    </div>
+                  </div><a class="thx_button scroll_to_button" href="#scroll_to_form"><span>Order Now</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="supplement">
+        <div class="wrapper">
+          <div class="container">
+            <div class="title">Supplement Facts</div>
+            <div class="supplement_main">
+              <div class="left_part">
+                <div class="product"><img src="img/common/product.png" alt=""></div>
+                <div class="barcode"></div>
+              </div>
+              <div class="middle_part">
+                <div class="cosist_head">
+                  <p>Serving size: 1 sachet </p>
+                  <p>Servings per container: 15</p>
+                </div>
+                <div class="consist_top">
+                  <p>Substance</p>
+                  <p>Amount per portion as recommended for daily consumption</p>
+                </div>
+                <div class="consist_line">
+                  <div class="line">
+                    <p>Guarana seed extract</p>
+                    <p>50 mg</p>
+                  </div><span>(Paullinia cupana)</span>
+                </div>
+                <div class="consist_line">
+                  <div class="line">
+                    <p>Garlic bulb extract </p>
+                    <p>50 mg</p>
+                  </div><span>(Allium sativum)</span>
+                </div>
+                <div class="consist_line">
+                  <div class="line">
+                    <p>Vitamin C</p>
+                    <p>40 mg</p>
+                  </div><span>50% </span>
+                </div>
+                <div class="consist_line">
+                  <div class="line">
+                    <p>Vitamin B6 </p>
+                    <p>0,70 mg</p>
+                  </div><span>50%</span>
+                </div>
+                <div class="consist_line">
+                  <div class="line">
+                    <p>Magnesium </p>
+                    <p>187,5 mg</p>
+                  </div>
+                </div>
+                <div class="nope">
+                  <p><strong>Other ingredients:  </strong>Maltodextrin, sweetener: sorbitol, aroma: orange, anticaking agent: silicon dioxide (nano).</p>
+                  <p><strong>Free from:  </strong> Artificial colours, flavours, sweeteners, soya, gluten, wheat, yeast or porcine.</p>
+                </div>
+              </div>
+              <div class="right_part">
+                <div class="text">
+                  <p><strong>Recommended Use: </strong>Take 1 (one) sachet diluted in a large glass of water 15-30 minutes before workout.</p>
+                  <p><strong>Caution: </strong>Food supplements should be used as a part of a healthy lifestyle and not used as substitutes of a varied and balanced diet. Keep out of reach of children.</p>
+                  <p>Do not exceed the daily dose recommended. Store at room temperature. Do not expose to excessive heat or moisture.</p>
+                  <p>Contains caffeine (5,5 mg per serving) not recommended for pregnant or breastfeeding women, child and people sensitive to caffeine.</p>
+                  <p>Best before: see base </p>
+                </div>
+                <div class="nope">
+                  <div class="box">
+                    <p>abas, . </p><a href="/">Fine-fit.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="delivery">
+        <div class="wrapper">
+          <div class="container">
+            <div class="title">Delivery and Payment</div>
+            <div class="image"><img src="img/common/product.png" alt=""></div>
+            <ul class="delivery_list">
+              <li>
+                <p>You will recieve your Fine Fit in 4-7 days after the order.</p>
+              </li>
+              <li>
+                <p>Pay only after recieving the package!</p>
+              </li>
+              <li>
+                <p>100% Discreet Packaging, Shipping &amp; Billing</p>
+              </li>
+            </ul>
+            <div class="icons_list">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="how_order">
+        <div class="wrapper">
+          <div class="container">
+            <div class="title"><span>How to order Fine Fit?</span></div>
+            <div class="top_part">
+              <div class="circle"><span>
+                  <div class="icon_form"></div></span></div>
+              <div class="circle"><span>
+                  <div class="icon_phone"></div></span></div>
+              <div class="circle"><span>
+                  <div class="icon_box"></div></span></div>
+            </div>
+            <div class="bottom_part">
+              <ul class="list">
+                <li>
+                  <div class="box">
+                    <div class="caption">Fill in the order form below</div>
+                    <div class="desc">Your name and your contact telephone number</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="box">
+                    <div class="caption">Confirm the delivery address, type and date</div>
+                    <div class="desc">Manager will call you after the order</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="box">
+                    <div class="caption">Recieve the product and pay</div>
+                    <div class="desc">Payment upon delivery to courier or at post office</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="form_section">
+        <div class="form_section_image"><img src="img/common/how_order_image.jpg" alt=""></div>
+        <div class="wrapper">
+          <div class="container">
+            <div class="main_part">
+              <div class="left_part">
+                <div class="product_box">
+                  <div class="product"><img src="img/common/product.png" alt="">
+                    <div class="label global_label">
+                      <p class="up">Up to</p>
+                      <p class="proc">60% </p>
+                      <p class="off">off</p>
+                    </div>
+                  </div>
+                  <div class="description hide_on_mobile">
+                    <div class="arrow_price">
+                      <div class="white_bg">
+                        <div class="old_price">
+                          <div class="desc">retail:</div>
+                          <div class="value"><span><?=$currency?><?=$price['values']['price2']?></span></div>
+                        </div>
+                      </div>
+                      <div class="new_price">
+                        <div class="value">
+                          <div class="new_price_count"><?=$currency?><?=$price['values']['amo_total_main_price']?>
+                            <div class="label_new"><span>New!</span></div>
+                          </div>
+                          <div class="box">
+                            <p><span class="plus">+</span><span class="free">fast </span><span class="regular">Shipping</span></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="purchased">
+                      <h4>Purchased this week:</h4>
+                      <p><span>1457 </span>pcs</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer_part hide_on_mobile">
+                  <p>The PROMOTION is active <span>from  <span class="date_from" data-date data-day="-30"> </span></span><span> to  <span class="date_to" data-date data-day="1"></span></span></p>
+                </div>
+              </div>
+              <div class="right_part" id="form">
+                <div class="form_title">Order Now</div>
+                <div class="subtitle">
+                  <p>and get your Fine Fit  </p>
+                  <p>with a special price: <span>from  </span><span class="price"><?=$currency?><?=$price['values']['amo_total_main_price']?></span></p>
+                </div>
+                <form class="form" id="ajax_form_cod" action="" data-errorname="<?=$text['cod_form']['fields_placeholder'][0]?> <?=$text['order_form']['errors']['valid']?>" data-errorphone="<?=$text['cod_form']['fields_placeholder'][1]?> <?=$text['order_form']['errors']['valid']?>" data-errorphonenum_first="<?=$text['cod_form']['phonenum'][0]?>" data-errorphonenum_last="<?=$text['cod_form']['phonenum'][1]?>">
+                  <input type="hidden" name="user_ip" value="<?=$_SERVER['REMOTE_ADDR']?>">
+                  <input type="hidden" name="session_id" value="<?=$_GET['session'] ?? ''?>">
+                  <input type="hidden" name="aff_id" value="<?=$_GET['aff_id'] ?? ''?>">
+                  <input type="hidden" name="aff_sub" value="<?=$_GET['aff_sub'] ?? ''?>">
+                  <input type="hidden" name="aff_sub2" value="<?=$_GET['aff_sub2'] ?? ''?>">
+                  <input type="hidden" name="aff_sub3" value="<?=$_GET['aff_sub3'] ?? ''?>">
+                  <input type="hidden" name="aff_sub4" value="<?=$_GET['aff_sub4'] ?? ''?>">
+                  <input type="hidden" name="aff_sub5" value="<?=$_GET['aff_sub5'] ?? ''?>">
+                  <div class="field">
+                    <div class="top">
+                      <div class="field_name">Name:</div>
+                      <div class="example">i.e. Marry Johnson</div>
+                    </div>
+                    <input type="text" data-error-name="Name" name="name" placeholder="Your name">
+                  </div>
+                  <div class="field">
+                    <div class="top">
+                      <div class="field_name">Contact phone number:</div>
+                      <div class="example">i.e. +490 1234567</div>
+                    </div>
+                    <input type="tel" data-error-name="Phone" name="phone" placeholder="Your contact phone number">
+                  </div>
+                  <div class="arrow_price flex_on_mobile">
+                    <div class="old_price">
+                      <div class="desc">retail:</div>
+                      <div class="value"><span><?=$currency?><?=$price['values']['price2']?></span></div>
+                    </div>
+                    <div class="new_price">
+                      <div class="value">
+                        <div class="new_price_count"><?=$currency?><?=$price['values']['amo_total_main_price']?>
+                          <div class="label_new"><span>New!</span></div>
+                        </div>
+                        <div class="box">
+                          <p><span class="plus">+</span><span class="free">fast </span></p>
+                          <p><span class="regular">Shipping</span></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="submit_form" type="submit"><span class="big">Order Now</span><span class="small">with Discount</span></button>
+                  <div class="nope">* Filling out the form does not oblige you to make a purchase.</div>
+                </form>
+              </div>
+            </div>
+            <div class="footer_part show_on_mobile">
+              <p>The PROMOTION is active <span>from  <span class="date_from" data-date data-day="-30"> </span></span><span> to  <span class="date_to" data-date data-day="1"> </span></span></p>
+            </div>
+            <div class="purchased flex_on_mobile">
+              <h4>Purchased this week:</h4>
+              <p><span>1457 </span>pcs</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="wrapper">
+          <div class="container">
+            <div class="row top_line align-items-center">
+              <div class="col-12">
+                <div class="name"><strong>Fine Fit </strong></div>
+              </div>
+            </div>
+            <div class="row justify-content-between">
+              <div class="col-xl-7 col-lg-7 col-md-5 col-sm-6">
+                <div class="footer_warnings"><strong>Warning: </strong>  Keep out of reach of children. Stop use and consult a doctor if irritation develops. All Pictures shown are for illustration purpose only. Actual product may vary due to product enhancement. </div>
+              </div>
+              <div class="col-xl-4 col-lg-5 col-md-5 col-sm-6 mobile_hide">
+                <div class="logo_list"><span class="item_1"></span><span class="item_2"></span><span class="item_3"></span><span class="item_4"></span></div>
+              </div>
+            </div>
+            <div class="row justify-content-between">
+              <div class="col-lg-6 col-md-5 col-sm-5">
+                <div class="copyright">
+                  <div class="group">Copyright © 2017-2018  <br>abas </div>
+                  <div class="group">, 61 <br>SK , Cyprus </div><a href="https://fine">fine-fit.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <div class="popup step_link" id="step_1">
+        <div class="close_container"></div><?php include $cart_folder."inc/cod_popup/popup.php"; ?>
+      </div>
+      <div class="popup" id="doctor">
+        <div class="close_container"></div>
+        <div class="popup_container">
+          <div class="close"></div>
+          <div class="doctor_head">
+            <div class="logo_list"><span class="item_1"></span><span class="item_2"></span><span class="item_3"></span></div>
+            <div class="doctor_image"></div>
+          </div>
+          <div class="scroll_container">
+            <div class="doctor_sertificate">
+              <div class="bg"></div>
+              <div class="text">
+                <h4>Decision of the commission:</h4>
+                <p>The product is completely natural, highly effective, harmless to people, and then without any restrictions can be used in the home as a basic or auxiliary mean.</p><br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script src="js/jquery.bxslider.min.js"></script>
+      <script src="js/main.js"></script>
+  </body>
+</html>
